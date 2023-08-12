@@ -9,9 +9,10 @@ def calcular_imposto_previdencia(salario):
     elif salario <= 3856.94:
         imposto = (salario - 2571.30) * 0.12 + 211.61
     elif salario <= 7507.79:
-        imposto = (salario - 3856.95) * 0.14 + 299.46
+        imposto = (salario - 3856.95) * 0.14 + 365.89
 
     else:
+        imposto = 876.97
     return imposto
 
 salario = float(input("Digite o salário: "))
