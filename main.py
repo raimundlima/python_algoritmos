@@ -1,6 +1,7 @@
-# definindo a variavel nome
-nome = input ("digite o seu nome: ")
-# definindo a variavel idade 
-idade = input ("digite sua idade: ")
-# exibindo as informações obtidas 
-print ("bem vindo" , nome , "sua idade é:", idade )
+from classes.pessoa import Pessoa
+
+
+joao = Pessoa ("João Victor", 24)
+
+
+print (f"o nome é {joao.nome} com idade {joao.idade}")
